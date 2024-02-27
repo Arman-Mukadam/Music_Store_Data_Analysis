@@ -26,7 +26,7 @@ order by no_of_songs desc
 limit 10;
 
 
--- 3. Return all the track names that have a song length longer than the average song length. 
+-- 3. Return all the track names that have song length longer than the average song length. 
 -- Return the Name and Milliseconds for each track. Order by the song length with the longest songs listed first
 select name,milliseconds from track
 where milliseconds >(
